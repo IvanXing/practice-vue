@@ -1,0 +1,11 @@
+{
+  "name": "Practice-ShanYaoDan",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "git@github.com:IvanXing/practice-vue.git",
+  "author": "Ivan Xing <xingyifan10@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^2.6.11"
+  }
+}
