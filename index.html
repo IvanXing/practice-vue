@@ -29,10 +29,9 @@
 <body>
 
 <div id='app'>
-	<s-button>按钮</s-button>
-	<s-button icon="left">按钮</s-button>
-	<s-button icon="settings" icon-position="right">按钮</s-button>
-	<s-button icon="download" icon-position="left">按钮</s-button>
+	<s-button :loading="loading1" @click="loading1 = !loading1">按钮</s-button>
+	<s-button icon="settings" icon-position="right" :loading="loading2" @click="loading2 = !loading2">按钮</s-button>
+	<s-button icon="download" icon-position="left" :loading="loading3" @click="loading3 = !loading3">按钮</s-button>
 	<s-icon name="loading"></s-icon>
 </div>
 
