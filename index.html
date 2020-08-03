@@ -32,6 +32,11 @@
 	<s-button :loading="loading1" @click="loading1 = !loading1">按钮</s-button>
 	<s-button icon="settings" icon-position="right" :loading="loading2" @click="loading2 = !loading2">按钮</s-button>
 	<s-button icon="download" icon-position="left" :loading="loading3" @click="loading3 = !loading3">按钮</s-button>
+	<s-button-group>
+		<s-button icon="left">上一页</s-button>
+		<s-button>更多</s-button>
+		<s-button icon="right" icon-position="right">下一页</s-button>
+	</s-button-group>
 	<s-icon name="loading"></s-icon>
 </div>
 
