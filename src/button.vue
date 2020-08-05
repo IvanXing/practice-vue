@@ -10,8 +10,11 @@
 </template>
 
 <script>
+	import Icon from './icon';
 	export default {
-		// props: ['icon', 'iconPosition']
+		components: {
+			's-icon': Icon
+		},
 		props: {
 			icon: {},
 			loading: {
