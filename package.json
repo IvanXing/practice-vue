@@ -1,0 +1,9 @@
+{
+  "name": "practice",
+  "version": "0.0.1",
+  "description": "practice version",
+  "main": "index.js",
+  "repository": "git@github.com:IvanXing/practice-vue.git",
+  "author": "xingyifan <xingyifan10@qq.com>",
+  "license": "MIT"
+}
