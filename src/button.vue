@@ -1,6 +1,7 @@
 <template>
   <button class='s-button' :class="{[`icon-${iconPosition}`]: true}">
     <s-icon class="icon" v-if="icon" :name="icon"></s-icon>
+    <s-icon class="loading" name="loading"></s-icon>
     <div class="content">
       <slot></slot>
     </div>
@@ -25,6 +26,16 @@
 
 <style lang="scss">
   .s-button {
+
+    /*loading动画*/
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    .loading{
+      animation: spin 2s infinite linear;  /* spin动画 2s 无限 线性 滚动*/
+    }
+
     font-size: var(--font-size);
     height: var(--button-height);
     padding: 0 .7em;
