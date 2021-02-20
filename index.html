@@ -7,7 +7,12 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>咕噜</title>
   <style>
-    * {margin: 0; padding: 0; box-sizing: border-box;}
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
     html {
       --button-height: 32px;
       --font-size: 14px;
@@ -18,19 +23,33 @@
       --border-color: #999;
       --border-color-hover: #666;
     }
+
     #app {
       margin: 20px;
     }
+
     body {
       font-size: var(--font-size);
+    }
+  </style>
+  <style>
+    .icon {
+      width: 1em;
+      height: 1em;
     }
   </style>
 </head>
 <body>
 <div id="app">
-  <s-button></s-button>
+  <s-button>
+    <svg class="icon">
+      <use xlink:href="#i-settings"></use>
+    </svg>
+    我爱js
+  </s-button>
 </div>
 
 <script src="./src/app.js"></script>
+<script src="//at.alicdn.com/t/font_1978853_y93ilmz9nxc.js"></script>
 </body>
 </html>
