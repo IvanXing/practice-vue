@@ -7,4 +7,8 @@ Vue.component('s-icon', Icon);
 
 new Vue({
   el: "#app",
+  data: {
+    loading1: false,
+    loading2: false,
+  }
 })
