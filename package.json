@@ -6,6 +6,10 @@
   "repository": "git@github.com:IvanXing/practice-vue.git",
   "author": "xingyifan <xingyifan10@qq.com>",
   "license": "MIT",
+  "scripts": {
+    "dev-test": "parcel watch test/* --no-cache & karma start",
+    "test": "parcel build test/* --no-minify && karma start --single-run"
+  },
   "dependencies": {
     "vue": "^2.6.12",
     "vue-hot-reload-api": "^2.3.4"
