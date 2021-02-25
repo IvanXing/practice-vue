@@ -117,6 +117,7 @@ const expect = chai.expect;
   })
   vm.$mount()
   let spy = chai.spy(function(){
+    console.log('1')
   })
   vm.$on('click', spy)
   let button = vm.$el

@@ -1434,7 +1434,7 @@ chai-spies@^1.0.0:
 
 chai@^4.3.0:
   version "4.3.0"
-  resolved "https://registry.npm.taobao.org/chai/download/chai-4.3.0.tgz?cache=0&sync_timestamp=1612437544150&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fchai%2Fdownload%2Fchai-4.3.0.tgz#5523a5faf7f819c8a92480d70a8cccbadacfc25f"
+  resolved "https://registry.npm.taobao.org/chai/download/chai-4.3.0.tgz?cache=0&sync_timestamp=1612436330780&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fchai%2Fdownload%2Fchai-4.3.0.tgz#5523a5faf7f819c8a92480d70a8cccbadacfc25f"
   integrity sha1-VSOl+vf4GcipJIDXCozMutrPwl8=
   dependencies:
     assertion-error "^1.1.0"
@@ -3782,7 +3782,7 @@ path-parse@^1.0.6:
 
 pathval@^1.1.0:
   version "1.1.1"
-  resolved "https://registry.npm.taobao.org/pathval/download/pathval-1.1.1.tgz?cache=0&sync_timestamp=1611662022925&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fpathval%2Fdownload%2Fpathval-1.1.1.tgz#8534e77a77ce7ac5a2512ea21e0fdb8fcf6c3d8d"
+  resolved "https://registry.npm.taobao.org/pathval/download/pathval-1.1.1.tgz#8534e77a77ce7ac5a2512ea21e0fdb8fcf6c3d8d"
   integrity sha1-hTTnenfOesWiUS6iHg/bj89sPY0=
 
 pbkdf2@^3.0.3:

@@ -1,6 +1,6 @@
 <template>
   <button class='s-button' :class="{[`icon-${iconPosition}`]: true}"
-    @click="$emit('click1')"
+    @click="$emit('click')"
   >
     <s-icon class="icon" v-if="icon && !loading" :name="icon"></s-icon>
     <s-icon class="loading icon" v-if="loading" name="loading"></s-icon>
