@@ -1,8 +1,8 @@
 {
   "name": "practice-pro-1",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "practice version",
-  "main": "index.js",
+  "main": "dist/index.js",
   "repository": "git@github.com:IvanXing/practice-vue.git",
   "author": "xingyifan <xingyifan10@qq.com>",
   "license": "MIT",
